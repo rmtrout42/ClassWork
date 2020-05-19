@@ -46,8 +46,8 @@ def math_command(a, b):
     else:
         print("{} is not a valid command".format(c))
 
+if __name__ == "__main__":
+    a_in, b_in = calc_input()
+    math_command(a_in, b_in)
 
-a_in, b_in = calc_input()
-math_command(a_in, b_in)
-
-print('Finished')
+    print('Finished')
